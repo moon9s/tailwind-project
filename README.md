@@ -14,8 +14,8 @@ Check out the live project here:
 
 ## 📸 Sneak Peek! 📸👀
 <p align="center">
-<img src="assets\img\Screenshot 2026-02-27 145424.png" alt="Project Preview" width="600">
-  <img src="assets\img\Screenshot 2026-02-27 145345.png" alt="Project Preview" width="600">
+<img src="assets\img\Screenshot 2026-02-27 145424.png" alt="Project Preview" width="400">
+ <img src="assets\img\Screenshot 2026-02-27 145345.png" alt="Project Preview" width="400">
 </p>
 
 
