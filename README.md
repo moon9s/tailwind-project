@@ -8,7 +8,7 @@ Hello there! 👋 Welcome to my very first adventure using the **Tailwind CSS** 
 
 ## 🔗 Live Demo 🌐✨
 Check out the live project here:
-[✨ Click me to see the magic! ✨]<a href="https://moon9s.github.io/tailwind-project/">Online Demo</a>
+[✨<a href="https://moon9s.github.io/tailwind-project/">Click me to see the Magic</a>✨]
 
 ---
 
