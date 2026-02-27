@@ -25,7 +25,7 @@ Check out the live project here:
 This project was built with love using:
 * 💻 **HTML5**
 * 🎨 **Tailwind CSS** (for super fast styling! ⚡️)
-* ✨ **Custom JavaScript** (maybe? 🤫)
+
 
 ---
 
