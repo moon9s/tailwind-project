@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+.bg-section1 {
+    background-image: url(../img/section1.webp);
+    box-shadow: inset 0 -150px 15px rgba(0, 0, 0, 0.295);
+}
+
+.card-shadow {
+    background: #0c0b0f;
+    background: linear-gradient(183deg, rgba(34, 32, 43, 0.06) 0%, rgba(34, 32, 43, 0.19) 17%, rgba(34, 32, 43, 0.28) 38%, rgba(34, 32, 43, 0.42) 55%, rgba(34, 32, 43, 0.51) 71%, rgba(34, 32, 43, 0.59) 90%, rgba(34, 32, 43, 0.65) 98%);
+}
+
+footer {
+    background-image: url(../img/bg-footer.webp);
+}
+
+.md-flex{
+ width: 700px;   
+}
+
+
+.w-chocolate{
+  
+}
+
+
+.dropdown-wrapper {
+display: flex;
+flex-direction: column;
+gap: 10px;
+width: 100%;
+padding: 10px;
+}
+
+@media (min-width: 1024px) {
+.dropdown-wrapper {
+flex-direction: row;
+justify-content: center;
+gap: 20px;
+}
+}
+
+
+.custom-dropdown {
+position: relative;
+
+}
+
+.drop-btn {
+width: 100%;
+height: 50px;
+background-color: #f8f9fa;
+border: 1px solid #e2e8f0;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px; 
+cursor: pointer;
+font-weight: 600;
+transition: all 0.3s;
+}
+
+.drop-btn:hover {
+background-color: #edf2f7;
+}
+
+
+.drop-menu {
+position: absolute;
+top: 110%;
+left: 0;
+width: 100%;
+background: white;
+border-radius: 12px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+list-style: none;
+padding: 8px 0;
+display: none; 
+z-index: 100;
+}
+
+.drop-menu li a {
+display: block;
+padding: 10px 20px;
+text-decoration: none;
+color: #4a5568;
+text-align: right;
+font-size: 14px;
+}
+
+.drop-menu li a:hover {
+background-color: #f7fafc;
+color: #3182ce;
+}
+
+
+.custom-dropdown:hover .drop-menu {
+display: block;
+}
+
+.custom-dropdown:hover .arrow {
+transform: rotate(180deg);
+}
+
+.arrow {
+font-size: 10px;
+transition: transform 0.3s;
+color: #a0aec0;
+}
+
+
+.megamenu{
+    position: absolute;
+    top: 100%;
+    left:50% ;
+    transform: translateX(-100%);
+    width: 1200px;
+    z-index: 50;
+    
+
+}
